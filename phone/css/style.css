@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Style the smart Box */
+  .smartBox{
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 300px;
+    height: 460px;
+    background: black;
+    border: 10px solid rosybrown;
+    border-radius: 10%;
+  }
+
+  .frontCamera {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: gray;
+    border-radius: 100%;
+  }
+
+  .display {
+    margin: auto;
+    width : 250px;
+    height: 350px;
+    border-radius: 10%;
+
+  }
+  .navigators {
+    display: flex;
+    width:180;
+    height: 50px;
+  }
+
+  .menu, .home, .back {
+    flex: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  /* style the onoff btn */
+  .onoffBtn {
+    margin-top: 15%;
+    margin-left: 10px;
+    width: 30px;
+    height: 60px;
+    border: 3px solid rosybrown;
+    border-radius: 20%;
+  }
+
+  /* js efects */
+  .on {
+    background-color: white;
+  }
+
+  .off {
+    background-color: black;
+  }

@@ -1,0 +1,40 @@
+body {
+    margin:0 auto;
+    width: 360px;
+    height: 700px;
+    background-color: rgb(253, 246, 236);
+}
+
+img {
+    margin: 10px;
+}
+
+.functionImg {
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.menu {
+    width:360px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    position: absolute;
+    top: 630px;
+}
+
+.controls {
+    width:100%;
+    position: sticky;
+    top: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.off {
+    display: none;
+}

@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+header {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+  
+  /* Container for flexboxes */
+  section, nav ul {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu */
+  nav li {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+    border: 1px solid #001;
+  }
+  
+  aside {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+    border: 1px solid #001;
+  }
+  /* Style the list inside the menu */
+  nav ul, aside ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+  main {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  h2 {
+    flex-basis: 100%;
+  }
+
+  /* Style the description Box */
+  .description {
+    flex: 1;
+  }
+
+
+  /* Style the smart Box */
+  .smartBox{
+    width : 300px;
+    height: 460px;
+    background: black;
+    border: 10px solid rosybrown;
+    border-radius: 10%;
+  }
+
+  .frontCamera {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: gray;
+    border-radius: 100%;
+  }
+
+  .display {
+    margin: auto;
+    width : 250px;
+    height: 350px;
+    border-radius: 10%;
+
+  }
+  .navigators {
+    display: flex;
+    width:180;
+    height: 50px;
+  }
+
+  .menu, .home, .back {
+    flex: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+
+  /* js efects */
+  
